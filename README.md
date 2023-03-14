@@ -1,1 +1,1 @@
-# landings-page
+This is a landing page that exhibits use of HTML and CSS 
