@@ -7,23 +7,36 @@
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.header a {
+    text-decoration: none;
+}
+.header a:link, a:visited {
+    color: #F9FAF8;
+}
+.header a:hover {
+    color: rgb(18, 219, 18);
+}
+
 .logo {
     margin-right: 150px;
-    margin-left: 20px;
+    margin-left: 100px;
     color:rgb(214, 12, 39);
     font-size: 45px;
 }
-.three {
-    margin-right: 20px;
+.four {
+    margin-right: 100px;
 }
-.one, .two, .three {
+.one, .two, .three, .four {
     font-size: 20px;
 }
 .header-main {
     display: flex;
     background-color: #1F2937;
-    height: 500px;
+    height: 600px;
+    gap: 300px;
     align-items: center;
+    justify-content: center;
+
 }
 .main-text-container {
     margin-left: 20px;
@@ -32,12 +45,21 @@
     font-size: 25px;
 }
 .placeholder {
-    margin-left: 300px;
-    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.placeholder:hover {
+    transform: rotate(45deg);
 }
 .sign-up{
     background-color: #ee3d37;
-    font-size: 20px;
+    font-size: 25px;
+    border-radius: 10%;
+    padding: 20px;
+    color: #F9FAF8;
+}
+.sign-up:hover {
+    background-color: rgb(18, 219, 18);
 }
 .services {
     display: flex;
@@ -52,8 +74,15 @@
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.about img:hover {
+    transform: scale(1.10);  
+}
+.about img {
+    width: 280px;
+    height: 250px;
+}
 img {
-border-radius: 10%;
+border-radius: 15px;
 border-style: solid;
 border-color: #1F2937;
 }
@@ -68,7 +97,7 @@ body {
 .quote-text {
     padding-top: 60px;
     padding-bottom: 15px;
-    font-size: 30px;
+    font-size: 36px;
 }
 .thoreau {
     padding-bottom: 60px;
@@ -87,7 +116,7 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
     border-style: solid;
-    border-radius: 5%;
+    border-radius: 10px;
     background-color: #1F2937;
 }
 .call-text {
@@ -96,9 +125,21 @@ body {
 .end-button {
     font-size: 20px;
     background-color: #ee3d37;
+    color: #F9FAF8;
+    border-radius: 90%;
+    padding: 40px;
 }
 .return {
-    text-align: end;
-    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 50%;
 }
+.return a {
+    color: blue;
+}
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 10px;
 
+}
